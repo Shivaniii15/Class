@@ -4,9 +4,16 @@ class basketball:
         self.goals = goals
         self.games = games
 
-    
+    def calculate_average(goals,games):
+        goals = sum(goals)
+        games = len(games)
+        average = goals / games
+        return average
+
+
     def speak(self):
-        print(self.name, "scored", self.goals,"goals in", self.games, "games and her average number goals per game were", display_average)
+        print(self.name, "scored", self.goals,"goals in", self.games, "games and her average number goals per game were")
+
 
 Jeana = basketball("Jeana", 10, 20)
 Jessie = basketball("Jessie", 5, 10)
