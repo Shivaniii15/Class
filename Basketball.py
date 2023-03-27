@@ -6,7 +6,7 @@ class basketball:
 
     
     def speak(self):
-        print(self.name, self.goals, self.games)
+        print(self.name, "scored", self.goals,"goals in", self.games, "games.")
 
 Jeana = basketball("Jeana", 10, 20)
 Jessie = basketball("Jessie", 5, 10)
