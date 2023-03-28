@@ -10,9 +10,9 @@ class basketball:
             return 0.0
         return self.goals / self.games
 
-    def display_average(self):
+    def display_average(self):#displays the average goals per game
         avg_goals = self.calculate_average()
-        print(self.name, "scored", self.goals,"goals in", self.games, "games and her average number goals per game were", self.display_average)
+        print(self.name, "scored", self.goals,"goals in", self.games, "games and her average number goals per game were", avg_goals)
 
 Jeana = basketball("Jeana", 10, 20)
 Jessie = basketball("Jessie", 5, 10)
