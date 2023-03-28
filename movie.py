@@ -7,8 +7,6 @@ class movie:
     #arguements here are title, genre and rating
 
     def calculate_net_profit(self): #new function to calculate net profit
-        if self.revenue == 0:
-            return 0.0
         return self.revenue - self.expenses #expenses/revenue=net profit
     
     def display_net_profit(self):
