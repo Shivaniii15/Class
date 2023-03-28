@@ -4,6 +4,7 @@ class basketball:
         self.goals = goals
         self.games = games
 
+
     def calculate_average(goals,games):
         goals = sum(goals)
         games = len(games)
